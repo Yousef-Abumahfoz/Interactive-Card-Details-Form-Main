@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col lg:flex-row">
-      {/* قسم البطاقات */}
+
       <div 
         className="relative lg:w-1/3 bg-purple-900 lg:min-h-screen"
         style={{
@@ -48,7 +48,6 @@ function App() {
         <CardPreview cardData={cardData} />
       </div>
 
-      {/* قسم النموذج أو صفحة الإكمال */}
       <div className="lg:w-2/3 flex items-center justify-center p-6 bg-white">
         {!isSubmitted ? (
           <CardForm 

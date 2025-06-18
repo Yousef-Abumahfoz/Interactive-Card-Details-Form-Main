@@ -6,9 +6,7 @@ export default function CardPreview({ cardData }) {
   return (
     <div className="relative flex flex-col lg:flex-row items-center justify-center lg:justify-start gap-16 px-6 lg:px-24 py-10 lg:py-20">
       
-      {/* البطاقات (الجزء الأيسر) */}
       <div className="relative w-full lg:w-[400px] h-[300px] lg:h-[500px]">
-        {/* البطاقة الأمامية */}
         <div 
           className="absolute top-10 bottom-34 left-30 z-20 w-[85%] max-w-[22rem] h-44 lg:h-52 lg:w-96 rounded-xl shadow-2xl"
           style={{
@@ -33,7 +31,6 @@ export default function CardPreview({ cardData }) {
           </div>
         </div>
 
-        {/* البطاقة الخلفية */}
         <div 
           className="absolute top-32 left-8 lg:top-70 lg:left-65 z-10 w-[85%] max-w-[22rem] h-44 lg:h-52 lg:w-96 rounded-xl shadow-2xl"
           style={{
@@ -48,14 +45,11 @@ export default function CardPreview({ cardData }) {
         </div>
       </div>
 
-      {/* الفورم (الجزء الأيمن) - placeholder فقط */}
       <div className="w-full max-w-md">
-        {/* هنا تضع الفورم الحقيقي في ملف آخر */}
         <div className="text-center lg:text-left">
           
           
           
-          {/* الخانات الأخرى اختياري */}
         </div>
       </div>
     </div>
